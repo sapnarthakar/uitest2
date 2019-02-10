@@ -1,0 +1,173 @@
+
+*{padding:0; margin:0;}
+
+body {
+    background:#FFF;
+    background-size: cover;
+    font-family: 'Raleway', sans-serif;
+    font-weight:200;
+    color:#FFF;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #FFF;
+    font-weight: 600;
+    line-height: 1.3;
+}
+h1{font-size:45px;}
+
+img{max-width:100%;}
+a {
+    color: #0083e8;text-decoration: none; color:#FFF;
+}
+
+b, strong {
+    font-weight: 600;
+}
+
+p, li{font-size:15px; line-height:25px;}
+
+.clearfix{clear:both;}
+
+.align-right{float:right;}
+.align-left{float: left;}
+.align-right:after{clear:both;}
+.align-left:after{clear:both;}
+.inner-cont{max-width:960px; margin:0 auto;}
+.container{margin-right: auto;margin-left: auto; background:url(../images/png/rectangle-8.png) no-repeat top center #FFF; width:100%;}
+.header{padding:30px 0;max-width:960px; margin:0 auto;}
+.header .logo{background:url(../images/png/shape-2.png) no-repeat left center; font-size:20px; font-weight:700; color:#FFF;padding: 0 65px;word-break: break-all;}
+.inner-container{width:100%;}
+.banner-content{padding:30px 0 128px;}
+.banner-content p{font-size:18px; line-height: 28px;}
+p.small{font-size:10px;line-height:20px; padding:10px 0;}
+.banner-content a{color:#84fbcf;}
+.banner-content a.button{ width:230px;color:#FFF; border-radius: 5px;box-shadow: 0 0 51px 0 rgba(8, 62, 152, 0.32);  background: url(../images/png/shape-1.png) no-repeat 245px center #fc8f46; font-size:29px; padding:20px 40px; margin:30px 0; display:block;text-transform: uppercase; font-weight:bold;}
+.banner-content h1{line-height:60px; padding-bottom:80px;}
+.banner-content h1 span{border-bottom:8px solid #FFF;padding-bottom:30px;}
+.banner-content .left-cont{width:40%; float:left; margin-right:2%}
+.banner-content .right-cont{width:55%; float:right;}
+.call2action{margin-top:100px; color:#333;}
+.call2action .align-left{width:65%;}
+.call2action .col-1, .call2action .col-2, .call2action .col-3{padding-top:70px;}
+.call2action .vector-img{width:23%; background:url(../images/png/shape-4.png) no-repeat center center;padding: 33px;text-align: center;}
+.call2action h2{font-size:26px; color:#0a489d;padding-bottom:10px;font-weight: normal;}
+.call2action .align-left p{color:#33363b;line-height:25px; font-size:15px;}
+.inner-cont{max-width:960px; margin:0 auto;}
+.btn-startnow{text-align:center;}
+.btn-startnow a.button{ width:230px;color:#FFF; border-radius: 5px;box-shadow: 0 0 51px 0 rgba(8, 62, 152, 0.32);  background: url(../images/png/shape-1.png) no-repeat 245px center #fc8f46; font-size:29px; padding:20px 65px 20px 0px; margin:100px 0; display:inline-block;text-transform: uppercase; font-weight:bold;}
+.easy-to-install{background:url(../images/png/rectangle-8-copy.png) no-repeat top center;}
+.easy-to-install .steps-cont{border-radius: 20px; box-shadow: 1.8px 14.9px 24px 0 rgba(20, 20, 20, 0.23); background-image: linear-gradient(121deg, #32c2f1, #81f9d0); padding:35px 30px; text-align:center;}
+.easy-to-install .steps-cont ul{display: inline-flex; margin:40px;}
+.easy-to-install .steps-cont ul li{display:inline-block; text-align:left; padding:20px 30px;height: 150px; vertical-align: top; width:175px; list-style-type: none; position:relative;}
+.easy-to-install .steps-cont ul li.blue1{background: #116cb0;}
+.easy-to-install .steps-cont ul li.blue2{background:#0d59a6;}
+.easy-to-install .steps-cont ul li.blue3{background:#083e98;}
+.easy-to-install h3{font-size:30px; color:#FFF;position:relative;}
+.easy-to-install h3.border-center:before {content: " "; position: absolute; z-index: 2; left: 44%; width: 10%;right: 5px; bottom: -18px; border: 2px solid #ffffff;}
+.easy-to-install .steps-cont ul li.blue1:after, .easy-to-install .steps-cont ul li.blue2:after { content: '';display: block; position: absolute; left: 100%; width: 0; height: 0; border-style: solid;z-index:2; top: 47%; border-color: transparent transparent transparent #116cb0;border-width: 10px;}
+.easy-to-install .steps-cont ul li.blue2:after {border-color: transparent transparent transparent #0d59a6;}
+.easy-to-install .steps-cont ul li span{border:1px solid #FFF; border-radius:50%; padding:2px 12px; font-size:25px; font-weight:bold;}
+.easy-to-install .steps-cont ul li p{padding-top:60px;}
+.easy-to-install .steps-cont a.button{ width:230px;color:#083e98; border-radius: 5px;box-shadow: 0 0 51px 0 rgba(8, 62, 152, 0.32);  background: url(../images/png/shape-1_4.png) no-repeat 240px center #FFF; font-size:29px; padding:20px 65px 20px 0px; margin:20px 0; display:inline-block;text-transform: uppercase; font-weight:bold;}
+.easy-to-install .lower-cont h3{padding:100px 0 5px 0; position:relative; margin-bottom:50px;}
+.easy-to-install .lower-cont h3:after{content: " "; position: absolute; z-index: 2; left:0; width: 10%;right: 5px; bottom: -5px; border: 1px solid #ffffff;}
+.easy-to-install .lower-cont ul li{padding:10px 0;}
+.easy-to-install .lower-cont ul{padding-bottom:100px;}
+.last-sec{text-align:center;}
+.last-sec p{font-size:30px; color:#083e98; font-weight:bold; line-height:40px; text-align:center;}
+.last-sec a.button{ width:230px;color:#FFF; border-radius: 5px;box-shadow: 0 0 51px 0 rgba(8, 62, 152, 0.32);  background: url(../images/png/shape-1.png) no-repeat 245px center #fc8f46; font-size:29px; padding:20px 65px 20px 25px; margin:50px 0; display:inline-block;text-transform: uppercase; font-weight:bold;}
+footer {text-align:center; padding:25px 0; border-top:1px solid #33363b}
+footer ul li{display:inline-block; font-size:14px;}
+footer ul li a{color:#33363b;border-left:1px solid #33363b; padding:3px 20px;}
+footer ul li.first a{border:none;}
+
+
+/* pop up css starts  */
+
+.box {
+  width: 40%;
+  margin: 0 auto;
+  background: rgba(255,255,255,0.2);
+  padding: 35px;
+  border: 2px solid #fff;
+  border-radius: 20px/50px;
+  background-clip: padding-box;
+  text-align: center;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #06D85F;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+.top-right {
+    right: 0;
+    position: absolute;
+    top: 0px;
+    margin: 0!important;
+}
+.top-left{
+	 top: 0px;
+    margin: 0!important;
+left: 0;
+    position: absolute;
+}
+.bottom-center{
+margin: 40% auto;
+	
+	
+}
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
+}
+/* pop up css ends  */

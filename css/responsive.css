@@ -1,0 +1,78 @@
+ @media (min-width: 1281px) {
+  
+ .container{border:2px solid red;}
+  
+}
+
+/* 
+  Desktops
+  1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+.container {
+    max-width: 1140px;  border:2px solid blue;
+  }  
+  
+}
+
+/* 
+  Tablets, Ipads. Phablets (portrait)
+  768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    max-width: 960px;  border:2px solid green;
+  }
+  
+}
+
+/* 
+  Tablets, Ipads. Phablets (landscape)
+   768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+ .container {
+    max-width: 100%; border:2px solid red; padding:15px 0;
+  } 
+  .banner-content .left-cont{width:100%;}
+.banner-content .right-cont{width:100%;}
+}
+
+/* 
+  Low Resolution Tablets, Mobiles (Landscape)
+  481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  .container {
+    max-width: 720px; border:2px solid black;
+  }
+   .align-right{float:none;}
+.align-left{float: none;}
+.easy-to-install .steps-cont ul{display:block;}
+.banner-content .left-cont{width:100%;}
+.banner-content .right-cont{width:100%;}
+}
+
+/* 
+  Most of the Smartphones Mobiles (Portrait)
+  320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+.container {
+    max-width: 420px; border:2px solid yellow;
+  }
+ .align-right{float:none;}
+.align-left{float: none;}
+.easy-to-install .steps-cont ul{display:block;}
+.banner-content .left-cont{width:100%;}
+.banner-content .right-cont{display:none;}
+  
+}
